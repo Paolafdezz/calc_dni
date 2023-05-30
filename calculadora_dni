@@ -1,0 +1,13 @@
+cantidad_letras = 23
+
+letras = ["T" "R" "W" "A" "G"
+          "M" "Y" "F" "P" "X"
+          "B" "N" "J" "Z" "S"
+          "Q" "V" "H" "L" "C" "K" "E"]
+
+def calculadora_dni(numero_dni):
+    return letras[numero_dni % len(letras)]
+
+if name == "main":
+    numero_dni = '03954553'
+    print (calculadora_dni (numero_dni))
